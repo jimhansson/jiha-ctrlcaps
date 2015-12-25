@@ -1,0 +1,15 @@
+{
+  "name": "jiha-ctrlcaps",
+  "version": "0.1.0",
+  "author": "jiha",
+  "summary": "swaps left ctrl with caps-lock",
+  "license": "Apache 2.0",
+  "source": "github",
+  "project_page": "github",
+  "issues_url": "github",
+  "dependencies": [
+			{"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+			{"name":"puppetlabs-registry","version_requirement":">= 1.1.0"}
+  ]
+}
+
