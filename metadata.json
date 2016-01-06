@@ -2,7 +2,7 @@
   "name": "jiha-ctrlcaps",
   "version": "0.1.0",
   "author": "jiha",
-  "summary": "swaps left ctrl with caps-lock",
+  "summary": "swaps left ctrl with caps-lock for windows",
   "license": "Apache 2.0",
   "source": "https://github.com/jimhansson/jiha-ctrlcaps.git",
   "project_page": "https://github.com/jimhansson/jiha-ctrlcaps",
