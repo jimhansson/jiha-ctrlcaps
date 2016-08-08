@@ -20,9 +20,9 @@
 #
 class ctrlcaps {
   registry::value { 'Swap capslock with left control':
-    key => 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout',
+    key   => 'HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout',
     value => 'Scancode Map',
-    data => '00 00 00 00 00 00 00 00 03 00 00 00 1d 00 3a 00 3a 00 1d 00 00 00 00 00',
-    type => 'binary',
+    data  => '00 00 00 00 00 00 00 00 03 00 00 00 1d 00 3a 00 3a 00 1d 00 00 00 00 00',
+    type  => 'binary',
   }
 }
